@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="despesas.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="segura-tudo">
+        <div class="title">
+            <h2>Controle de Despesas</h2>
+        </div>
+
+        <div class="title-saldo-atual">
+            <h3>SALDO ATUAL</h3>
+            <div class="saldo-atual">R$ 0</div>
+
+            <!-- display:flex -->
+            <div class="container-rec-desp">
+                <div class="rec-desp">
+                    <h3>RECEITAS</h3>
+                    <div class="positivo">R$ 0 </div>
+                </div>
+                <div class="rec-desp">
+                    <h3>DESPESAS</h3>
+                    <div class="negativo">R$ 0 </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="container-transacoes">
+            <h3>Transações</h3>
+           
+          
+          
+        </div>
+
+
+        <div class="adicionar-transacao">
+            <h3>Adicionar Transação</h3>
+        </div>
+
+        <form>
+            Nome<br>
+            <input type="text" value=""><br><br>
+
+            Valor(negativo-despesas, positivo-receitas)<br>
+            <input type="number" value=""><br><br><br><br>
+            <div class="btn-div"><a class="btn-confirma" type="button" onclick="adicionaTransacao();fecharCaixa()">Adicionar</a></div>
+    
+     
+
+        </form>
+    </div>
+
+<script src="despesas.js"></script>
+</body>
+
+</html>

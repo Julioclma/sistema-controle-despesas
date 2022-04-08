@@ -1,0 +1,111 @@
+body{
+background-color: rgb(243, 243, 243);    
+}
+
+#segura-tudo{
+
+    width: 500px;
+ 
+    margin: 50px auto;
+    
+}
+
+.title{
+
+    text-align: center;
+}
+.container-rec-desp
+{
+    display:flex;
+}
+
+.rec-desp{
+padding: 40px 76px;
+background-color:white;
+border:2px solid rgb(213, 213, 213);
+line-height: 1px;padding-top: 15px;
+
+margin-bottom: 15px;
+
+}
+.saldo-atual{
+
+    color: rgb(38, 114, 196);
+    font-size: 30px;
+    font-weight: bold;
+
+
+margin-bottom: 50px;}
+.title-saldo-atual{line-height: 5px;
+
+}
+.positivo{
+
+    color: rgb(32, 155, 32);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.negativo{
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.transacoes{
+    margin-bottom: 10px;
+    BACKGROUND-COLOR:white;
+    padding:12px;
+
+    border:2px solid rgb(213, 213, 213);
+   
+}
+
+
+input{
+    width: 493px;
+    height: 35px;
+    border:2px solid rgb(213, 213, 213);
+}
+
+
+.valor-transacao{
+    float:right;
+}
+
+
+
+.btn-confirma{
+
+    padding:20px 217.1px;
+    background-color:rgb(112, 123, 187);
+    color:white;
+    font-weight: bold;
+
+
+    
+}
+
+.btn-confirma-fechar{
+
+    padding:20px 227.7px;
+    background-color:rgb(112, 123, 187);
+    color:white;
+    font-weight: bold;
+
+}
+
+.btn-div{
+    text-align: center;
+}
+
+.container-transacoes{
+    margin-bottom: 35px;
+}
+
+
+a:hover{
+cursor:pointer;
+background-color:rgb(72, 89, 187);
+}
